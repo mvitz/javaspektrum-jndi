@@ -1,6 +1,5 @@
 package de.mvitz.jndi;
 
-import javax.naming.Context;
 import javax.naming.NamingException;
 import javax.naming.directory.InitialDirContext;
 import java.util.Hashtable;
