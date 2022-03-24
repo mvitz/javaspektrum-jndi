@@ -3,7 +3,8 @@
 **Java JNDI Examples**
 
 These examples were written for my german [JavaSPEKTRUM](http://www.javaspektrum.de/)
-article "Der Praktiker: TODO".
+article "Der Praktiker: Was genau ist eigentlich JNDI? - DNS und LDAP mittels
+JNDI abfragen".
 
 
 ## License
