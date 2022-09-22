@@ -6,6 +6,15 @@ These examples were written for my german [JavaSPEKTRUM](http://www.javaspektrum
 article "Der Praktiker: Was genau ist eigentlich JNDI? - DNS und LDAP mittels
 JNDI abfragen".
 
+You can read it online
+[here](https://www.innoq.com/de/articles/2022/04/java-jndi/)
+or download as PDF
+[here](http://www.sigs.de/publications/download/Artikel/vitz_JS_02_22_apxm.pdf).
+
+This article was translated into english as "Querying DNS and LDAP Using JNDI -
+What Is JNDI Actually?" and can be read
+[here](https://www.innoq.com/en/articles/2022/04/java-jndi/).
+
 
 ## License
 
